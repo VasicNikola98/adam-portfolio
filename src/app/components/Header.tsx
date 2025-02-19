@@ -1,10 +1,12 @@
 "use client";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
     <header className="bg-white shadow-md py-4">
@@ -32,7 +34,11 @@ const Header = () => {
               <li key={item.name} className="relative group">
                 <Link
                   href={item.path}
-                  className="hover:text-gray-500 block py-2 md:py-1 transition-all"
+                  className={`block py-2 md:py-1 transition-all ${
+                    pathname === item.path
+                      ? "text-gray-900 font-semibold border-b-2 border-gray-600"
+                      : "hover:text-gray-500"
+                  }`}
                 >
                   {item.name}
                 </Link>
