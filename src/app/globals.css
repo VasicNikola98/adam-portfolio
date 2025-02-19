@@ -19,3 +19,26 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer utilities {
+  .clip-diagonal {
+    clip-path: polygon(0 0, 60% 0, 40% 100%, 0 100%);
+  }
+
+  .clip-diagonal-right {
+    clip-path: polygon(60% 0, 100% 0, 100% 100%, 40% 100%);
+  }
+
+  .fade-dots {
+    mask-image: radial-gradient(
+      circle at 40% 50%,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0) 80%
+    );
+    -webkit-mask-image: radial-gradient(
+      circle at 40% 50%,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0) 80%
+    );
+  }
+}
