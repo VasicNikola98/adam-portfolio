@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Lato  } from "next/font/google";
+import { Geist, Geist_Mono, Lato, Poppins, Inter } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -16,7 +16,18 @@ const geistMono = Geist_Mono({
 const lato = Lato({
   variable: "--lato-font",
   subsets: ["latin"],
-  weight: '700',
+  weight: '400',
+});
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-poppins", 
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
 });
 
 export const metadata: Metadata = {
@@ -32,7 +43,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${lato.variable}  antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${lato.variable} ${poppins.variable} ${inter.variable} antialiased`}
       >
         {children}
       </body>
