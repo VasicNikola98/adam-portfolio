@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
@@ -9,7 +10,7 @@ const Header = () => {
   const pathname = usePathname();
 
   return (
-    <header className="bg-white shadow-md py-4">
+    <header className="bg-white shadow-md py-4 sticky top-0 z-50">
       <nav className="flex justify-between items-center w-[90%] mx-auto">
         <div className="text-2xl font-bold font-poppins">ADAM</div>
 
