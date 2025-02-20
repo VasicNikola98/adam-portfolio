@@ -3,6 +3,7 @@
 import Header from "./components/Header";
 import Hero from "./pages/Home/Sections/Hero";
 import WhyChooseUs from "./pages/Home/Sections/WhyChooseUs";
+import AboutUs from "./pages/Home/Sections/AboutUs";
 
 export default function Home() {
   return (
@@ -14,6 +15,9 @@ export default function Home() {
       </div>
       <div className="h-screen">
         <WhyChooseUs />
+      </div>
+      <div>
+        <AboutUs />
       </div>
     </div>
   );
