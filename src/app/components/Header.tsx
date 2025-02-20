@@ -12,7 +12,9 @@ const Header = () => {
   return (
     <header className="bg-white shadow-md py-4 sticky top-0 z-50">
       <nav className="flex justify-between items-center w-[90%] mx-auto">
-        <div className="text-2xl font-bold font-poppins">ADAM</div>
+        <div className="text-2xl font-bold font-poppins text-[#1f3a5f]">
+          ADAM
+        </div>
 
         <button
           className="md:hidden text-black"
@@ -50,7 +52,7 @@ const Header = () => {
 
           <div className="md:hidden w-full flex justify-center mb-4">
             <Link href="/contact">
-              <button className="border border-black text-black bg-transparent px-5 py-2 rounded-md hover:bg-black hover:text-white transition font-poppins">
+              <button className="border border-[#1f3a5f] text-[#1f3a5f] bg-white px-5 py-2 rounded-md hover:bg-[#1f3a5f] hover:text-white transition font-poppins">
                 Contact
               </button>
             </Link>
@@ -59,7 +61,7 @@ const Header = () => {
 
         <div className="hidden md:block">
           <Link href="/contact">
-            <button className="border border-black text-black bg-transparent px-5 py-2 rounded-md hover:bg-black hover:text-white transition font-poppins">
+            <button className="border border-[#1f3a5f] text-[#1f3a5f] bg-white px-5 py-2 rounded-md hover:bg-[#1f3a5f] hover:text-white transition font-poppins">
               Contact
             </button>
           </Link>
