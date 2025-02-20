@@ -5,6 +5,7 @@ import Hero from "./pages/Home/Sections/Hero";
 import WhyChooseUs from "./pages/Home/Sections/WhyChooseUs";
 import MissionVision from "./pages/Home/Sections/MissionVision";
 import Testimonials from "./pages/Home/Sections/Testimonials";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -21,6 +22,9 @@ export default function Home() {
       </div>
       <div>
         <Testimonials />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
