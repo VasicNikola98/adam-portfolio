@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Hero from "./pages/Home/Sections/Hero";
 import WhyChooseUs from "./pages/Home/Sections/WhyChooseUs";
 import MissionVision from "./pages/Home/Sections/MissionVision";
+import Testimonials from "./pages/Home/Sections/Testimonials";
 
 export default function Home() {
   return (
@@ -15,8 +16,11 @@ export default function Home() {
       <div className="min-h-screen">
         <WhyChooseUs />
       </div>
-      <div className="min-h-screen">
+      <div>
         <MissionVision />
+      </div>
+      <div>
+        <Testimonials />
       </div>
     </div>
   );
