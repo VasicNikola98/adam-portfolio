@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <>
-      <section className="relative w-full h-full flex items-center bg-gradient-to-br from-white via-gray-100 to-gray-200">
+      <section className="relative w-full h-full flex items-center bg-white">
         <div className="absolute inset-0 flex justify-center items-center">
           <div className="absolute top-16 right-12 w-[70%] h-[2px] bg-[#1f3a5f] opacity-50 transform rotate-45 md:block sm:hidden"></div>
           <div className="absolute bottom-16 right-16 w-[60%] h-[2px] bg-[#1f3a5f] opacity-50 transform rotate-135 md:block sm:hidden"></div>
