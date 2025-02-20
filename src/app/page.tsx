@@ -7,9 +7,8 @@ import AboutUs from "./pages/Home/Sections/AboutUs";
 
 export default function Home() {
   return (
-    <div className="relative w-full h-screen overflow-auto bg-gray-50">
+    <div className="relative w-full h-screen overflow-auto">
       <Header />
-
       <div className="h-screen">
         <Hero />
       </div>
