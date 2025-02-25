@@ -4,12 +4,10 @@ export default function MissionVision() {
       <div className="absolute inset-0 flex justify-center items-center -z-10 pointer-events-none">
         <div className="absolute top-16 left-10 w-[50%] h-[2px] bg-[#1f3a5f] opacity-20 transform rotate-45 blur-sm"></div>
         <div className="absolute bottom-16 right-10 w-[40%] h-[2px] bg-[#1f3a5f] opacity-20 transform rotate-135 blur-sm"></div>
-
         <div className="absolute bottom-24 right-28 w-72 h-[2px] bg-[#1f3a5f] opacity-15"></div>
       </div>
 
       <div className="relative z-10 w-[90%] mx-auto flex flex-col items-center md:grid md:grid-cols-2 gap-16">
-        {/* Our Mission */}
         <div className="text-left space-y-6 text-gray-900">
           <h2 className="text-4xl font-extrabold font-poppins leading-tight text-[#1f3a5f] drop-shadow-lg">
             Our <span className="text-gray-600">Mission</span>
@@ -25,7 +23,6 @@ export default function MissionVision() {
           </p>
         </div>
 
-        {/* Our Vision */}
         <div className="text-left space-y-6 text-gray-900">
           <h2 className="text-4xl font-extrabold font-poppins leading-tight text-[#1f3a5f] drop-shadow-lg">
             Our <span className="text-gray-600">Vision</span>
@@ -44,9 +41,11 @@ export default function MissionVision() {
       </div>
 
       <div className="mt-12">
-        <button className="px-12 py-6 border border-[#1f3a5f] text-[#1f3a5f] bg-white hover:bg-[#1f3a5f] hover:text-white transition-all rounded-xl shadow-lg text-xl font-bold">
-          View More
-        </button>
+        <a href="/aboutus">
+          <button className="px-12 py-6 border border-[#1f3a5f] text-[#1f3a5f] bg-white hover:bg-[#1f3a5f] hover:text-white transition-all rounded-xl shadow-lg text-xl font-bold">
+            View More
+          </button>
+        </a>
       </div>
     </section>
   );
