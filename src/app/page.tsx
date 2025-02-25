@@ -1,10 +1,10 @@
 "use client";
 
 import Header from "./components/Header";
-import Hero from "./pages/Home/Sections/Hero";
-import WhyChooseUs from "./pages/Home/Sections/WhyChooseUs";
-import MissionVision from "./pages/Home/Sections/MissionVision";
-import Testimonials from "./pages/Home/Sections/Testimonials";
+import Hero from "./home/Hero";
+import WhyChooseUs from "./home/WhyChooseUs";
+import MissionVision from "./home/MissionVision";
+import Testimonials from "./home/Testimonials";
 import Footer from "./components/Footer";
 
 export default function Home() {
