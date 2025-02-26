@@ -8,12 +8,7 @@ const Carriers = () => {
   return (
     <>
       <Header />
-      <section className="py-20 bg-gray-50 text-gray-900 shadow-md text-center relative overflow-hidden">
-        <div className="absolute inset-0 flex justify-center items-center -z-10 pointer-events-none">
-          <div className="absolute top-16 left-10 w-[50%] h-[2px] bg-[#1f3a5f] opacity-20 transform rotate-45 blur-sm"></div>
-          <div className="absolute bottom-16 right-10 w-[40%] h-[2px] bg-[#1f3a5f] opacity-20 transform rotate-135 blur-sm"></div>
-          <div className="absolute bottom-24 right-28 w-72 h-[2px] bg-[#1f3a5f] opacity-15"></div>
-        </div>
+      <section className="py-20 bg-gray-50 text-gray-900 text-center relative overflow-hidden">
         <div className="container mx-auto px-6 md:px-12 relative z-10">
           <h2 className="text-5xl font-extrabold text-[#1f3a5f] mb-6">
             Partner With Us
@@ -64,10 +59,13 @@ const Carriers = () => {
           </h3>
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
             Sign up to become a carrier partner by contacting us at
-            <span className="text-[#1f3a5f] font-semibold">
+            <a
+              href="mailto:info@adam.com"
+              className="text-[#1f3a5f] font-semibold"
+            >
               {" "}
-              carriers@dispatchservices.com
-            </span>
+              info@adam.com
+            </a>
             . We look forward to working with you!
           </p>
           <FaShippingFast className="text-5xl text-[#1f3a5f] mx-auto mb-4" />

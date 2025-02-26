@@ -78,13 +78,15 @@ const Services = () => {
           <div className="flex flex-col md:flex-row justify-center items-center gap-6">
             <div className="flex items-center gap-3 bg-white p-4 rounded-xl shadow-md border border-[#3b5a85]">
               <FaPhoneAlt className="text-2xl text-[#1f3a5f]" />
-              <span className="text-lg text-gray-800">(123) 456-7890</span>
+              <a href="tel:+1234567890" className="text-lg text-gray-800">
+                (123) 456-7890
+              </a>
             </div>
             <div className="flex items-center gap-3 bg-white p-4 rounded-xl shadow-md border border-[#3b5a85]">
               <FaEnvelope className="text-2xl text-[#1f3a5f]" />
-              <span className="text-lg text-gray-800">
-                info@dispatchservices.com
-              </span>
+              <a href="mailto:info@adam.com" className="text-lg text-gray-800">
+                info@adam.com
+              </a>
             </div>
           </div>
         </div>
