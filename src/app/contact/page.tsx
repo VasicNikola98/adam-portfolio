@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { FaPhoneAlt, FaEnvelope, FaBuilding } from "react-icons/fa";
+import Link from "next/link";
 
 const Contact = () => {
   return (
@@ -105,12 +106,13 @@ const Contact = () => {
             personal information and ensuring transparency in how we collect,
             use, and safeguard your data.
           </p>
-          <a
-            href="/privacy-policy"
+
+          <Link
+            href="/privacypolicy"
             className="text-[#1f3a5f] font-semibold hover:underline"
           >
             Read Our Privacy Policy
-          </a>
+          </Link>
         </div>
       </section>
 
