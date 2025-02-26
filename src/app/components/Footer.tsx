@@ -1,4 +1,5 @@
-import { Phone, Mail, Linkedin, Instagram, Facebook } from "lucide-react";
+import { Phone, Mail, Instagram } from "lucide-react";
+import { FaLinkedin, FaFacebook } from "react-icons/fa";
 import Link from "next/link";
 
 const Footer = () => {
@@ -16,12 +17,16 @@ const Footer = () => {
           </p>
           <div className="mt-6 text-lg flex flex-col items-center md:items-start text-gray-300">
             <div className="flex items-center gap-2 mb-3">
-              <Phone size={20} className="text-[#1f3a5f]" />{" "}
+              <Phone size={20} className="text-[#1f3a5f]" />
               <p>+123 456 7890</p>
             </div>
-            <div className="flex items-center gap-2">
-              <Mail size={20} className="text-[#1f3a5f]" />{" "}
+            <div className="flex items-center gap-2 mb-3">
+              <Mail size={20} className="text-[#1f3a5f]" />
               <p>contact@adam.com</p>
+            </div>
+            <div className="flex flex-col mt-4">
+              <p>PIB: 123456789</p>
+              <p>Register Number: 987654321</p>
             </div>
           </div>
         </div>
@@ -69,6 +74,14 @@ const Footer = () => {
                 Contact
               </Link>
             </li>
+            <li>
+              <Link
+                href="/faq"
+                className="hover:text-[#1f3a5f] transition duration-300"
+              >
+                FAQ
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
@@ -76,7 +89,7 @@ const Footer = () => {
       {/* Social Media Section */}
       <div className="mt-12 flex justify-center gap-8">
         <Link href="https://www.linkedin.com" target="_blank">
-          <Linkedin
+          <FaLinkedin
             size={30}
             className="hover:text-[#1f3a5f] transition duration-300"
           />
@@ -88,7 +101,7 @@ const Footer = () => {
           />
         </Link>
         <Link href="https://www.facebook.com" target="_blank">
-          <Facebook
+          <FaFacebook
             size={30}
             className="hover:text-[#1f3a5f] transition duration-300"
           />
@@ -104,6 +117,14 @@ const Footer = () => {
       {/* Footer Bottom Section */}
       <div className="mt-12 text-center text-sm text-gray-400">
         <p>&copy; {new Date().getFullYear()} ADAM. All rights reserved.</p>
+        <p>
+          <Link
+            href="/privacypolicy"
+            className="hover:text-[#1f3a5f] transition duration-300"
+          >
+            Privacy Policy
+          </Link>
+        </p>
       </div>
     </footer>
   );

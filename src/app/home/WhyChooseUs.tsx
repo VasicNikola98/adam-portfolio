@@ -1,4 +1,5 @@
 import { Users, Headset, Truck } from "lucide-react";
+import Link from "next/link";
 
 export default function WhyChooseUs() {
   return (
@@ -68,9 +69,11 @@ export default function WhyChooseUs() {
 
         {/* Call to Action Button */}
         <div className="mt-14">
-          <button className="px-12 py-6 border border-white text-white bg-[#1f3a5f] hover:bg-white hover:text-[#1f3a5f] transition-all rounded-xl shadow-lg text-xl font-bold">
-            About Our Services
-          </button>
+          <Link href="/services">
+            <button className="px-12 py-6 border border-white text-white bg-[#1f3a5f] hover:bg-white hover:text-[#1f3a5f] transition-all rounded-xl shadow-lg text-xl font-bold">
+              About Our Services
+            </button>
+          </Link>
         </div>
       </div>
     </section>

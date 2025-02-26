@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero() {
   return (
     <>
@@ -27,9 +29,12 @@ export default function Hero() {
                 With us your truck is in safe hands.
               </span>
             </p>
-            <button className="mt-6 border border-[#1f3a5f] text-white bg-[#1f3a5f] px-6 py-3 rounded-md hover:bg-white hover:text-[#1f3a5f] hover:border-[#1f3a5f] transition-all font-poppins shadow-md">
-              Get Started
-            </button>
+
+            <Link href="/contact">
+              <button className="mt-6 border border-[#1f3a5f] text-white bg-[#1f3a5f] px-6 py-3 rounded-md hover:bg-white hover:text-[#1f3a5f] hover:border-[#1f3a5f] transition-all font-poppins shadow-md">
+                Get Started
+              </button>
+            </Link>
           </div>
 
           <div className="hidden md:flex justify-center items-center relative">
