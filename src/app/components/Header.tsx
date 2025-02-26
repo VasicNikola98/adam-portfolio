@@ -12,9 +12,11 @@ const Header = () => {
   return (
     <header className="bg-white shadow-md py-4 sticky top-0 z-50">
       <nav className="flex justify-between items-center w-[90%] mx-auto">
-        <div className="text-2xl font-bold font-poppins text-[#1f3a5f]">
-          ADAM
-        </div>
+        <Link href="/">
+          <div className="text-2xl font-bold font-poppins text-[#1f3a5f]">
+            ADAM
+          </div>
+        </Link>
 
         <button
           className="md:hidden text-black"
