@@ -18,11 +18,11 @@ const Footer = () => {
           <div className="mt-6 text-lg flex flex-col items-center md:items-start text-gray-300">
             <div className="flex items-center gap-2 mb-3">
               <Phone size={20} className="text-[#1f3a5f]" />
-              <p>+123 456 7890</p>
+              <a href="tel:+1234567890">+123 456 7890</a>
             </div>
             <div className="flex items-center gap-2 mb-3">
               <Mail size={20} className="text-[#1f3a5f]" />
-              <p>contact@adam.com</p>
+              <a href="mailto:contact@adam.com">contact@adam.com</a>
             </div>
             <div className="flex flex-col mt-4">
               <p>PIB: 123456789</p>
