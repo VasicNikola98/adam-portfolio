@@ -13,8 +13,9 @@ const Header = () => {
     <header className="bg-white shadow-md py-4 sticky top-0 z-50">
       <nav className="flex justify-between items-center w-[90%] mx-auto">
         <Link href="/">
-          <div className="text-2xl font-bold font-poppins text-[#1f3a5f]">
-            ADAM
+          <div className="text-2xl font-bold font-poppins">
+            <span className="text-[#1f3a5f]">ADAM</span>{" "}
+            <span className="text-[#6b7280] font-extrabold">ELD</span>
           </div>
         </Link>
 

@@ -8,9 +8,11 @@ const Footer = () => {
       <div className="w-[90%] mx-auto flex flex-col items-center md:flex-row md:justify-between gap-16 md:gap-0">
         {/* Company Info Section */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
-          <div className="text-4xl font-bold font-poppins text-[#1f3a5f]">
-            ADAM ELD
+          <div className="text-4xl font-bold font-poppins">
+            <span className="text-[#1f3a5f]">ADAM</span>{" "}
+            <span className="text-[#6b7280] font-extrabold">ELD</span>
           </div>
+
           <p className="text-lg mt-4 max-w-md mx-auto md:mx-0 text-gray-300">
             At Adam ELD, we offer a full range of services to ensure seamless
             ELD compliance and hassle-free operations for truck drivers and
