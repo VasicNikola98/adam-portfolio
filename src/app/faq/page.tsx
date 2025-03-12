@@ -7,24 +7,29 @@ import { FaChevronDown } from "react-icons/fa";
 
 const faqs = [
   {
-    question: "What services does Adam Dispatch offer?",
+    question: " Do you provide ELD device installation and setup assistance?",
     answer:
-      "We provide professional dispatching services, connecting carriers with quality freight opportunities and ensuring seamless logistics management.",
+      "Yes, we help drivers and companies properly install and configure their ELDs to ensure compliance with FMCSA regulations.",
   },
   {
-    question: "How can I become a carrier partner?",
+    question: "Do you offer 24/7 technical support?",
     answer:
-      "You can join our network by contacting us at info@adamdispatch.com or calling +1 (555) 123-4567. We’ll guide you through the onboarding process.",
+      "Yes, our team is available around the clock to resolve issues related to connectivity, data synchronization, or software glitches.",
   },
   {
-    question: "What are the working hours of Adam Dispatch?",
+    question: "Do you provide training for drivers and dispatchers?",
     answer:
-      "Our dispatch team is available 24/7 to support your logistics needs and ensure smooth operations.",
+      "Yes, we offer comprehensive training to ensure users can efficiently operate the device and application.",
   },
   {
-    question: "How do I get paid as a carrier?",
+    question: "Can you assist with FMCSA compliance and inspections?",
     answer:
-      "Payments are processed reliably and on time, according to our agreement with carriers. For payment-related inquiries, contact our finance team.",
+      "Yes, we help maintain accurate records and prepare for inspections to avoid fines and violations.",
+  },
+  {
+    question: "How do you manage data and reporting?",
+    answer:
+      "We provide easy access to driving logs, mileage reports, and work hours, simplifying administration and performance analysis.",
   },
 ];
 
@@ -44,8 +49,8 @@ const Faq = () => {
             Frequently Asked Questions
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-12 max-w-3xl mx-auto">
-            Find answers to the most common questions about Adam Dispatch
-            services.
+            Find answers to the most common questions about Adam ELD services.
+            If you need further assistance, feel free to reach out to us.
           </p>
         </div>
       </section>

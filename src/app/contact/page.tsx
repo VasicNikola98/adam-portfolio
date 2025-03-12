@@ -13,8 +13,8 @@ const Contact = () => {
             Contact Us
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-12 max-w-3xl mx-auto">
-            Connect with our dispatching team for efficient logistics solutions
-            and professional support.
+            Connect with our ELD team for efficient solutions and professional
+            support.
           </p>
         </div>
       </section>
@@ -33,11 +33,7 @@ const Contact = () => {
               <strong>Registration Number:</strong> 987654321
             </p>
             <p className="text-gray-700">
-              <strong>Headquarters:</strong> 123 Logistics Avenue, City, State,
-              ZIP
-            </p>
-            <p className="text-gray-700">
-              <strong>Business Hours:</strong> Monday–Friday: 6:00 AM – 6:00 PM
+              <strong>Business Hours:</strong> Monday–Sunday: 24h
             </p>
           </div>
 
@@ -53,9 +49,7 @@ const Contact = () => {
               +123 456 7890
             </a>
 
-            <p className="text-gray-700 mt-2">
-              Monday–Friday: 6:00 AM – 4:00 PM
-            </p>
+            <p className="text-gray-700 mt-2">Monday–Sunday: 24h</p>
           </div>
 
           <div className="bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transform transition-all duration-300 ease-in-out hover:scale-105 flex flex-col items-center space-y-6 w-full md:w-[100%] border-t-2 border-[#1f3a5f]">
@@ -70,9 +64,7 @@ const Contact = () => {
               info@adam.com
             </a>
 
-            <p className="text-gray-700 mt-2">
-              Monday–Friday: 6:00 AM – 4:00 PM
-            </p>
+            <p className="text-gray-700 mt-2">Monday–Sunday: 24h</p>
           </div>
         </div>
       </section>
@@ -83,9 +75,8 @@ const Contact = () => {
             Frequently Asked Questions
           </h3>
           <p className="text-lg text-gray-700 mb-8">
-            Find answers to the most common questions about our dispatching
-            services, pricing, and support. If you need further assistance, feel
-            free to reach out to us.
+            Find answers to the most common questions about Adam ELD services.
+            If you need further assistance, feel free to reach out to us.
           </p>
           <a
             href="/faq"

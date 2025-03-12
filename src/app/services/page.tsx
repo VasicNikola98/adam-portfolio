@@ -12,21 +12,21 @@ import {
 
 const services = [
   {
-    title: "Dedicated Dispatching",
+    title: "Dedication",
     description:
-      "Our dispatchers provide 24/7 support, real-time tracking, and route planning to ensure efficient deliveries.",
+      "At Adam ELD, we are committed to providing top-quality ELD solutions that keep your business running smoothly and in full compliance with industry regulations. Our team works tirelessly to ensure drivers and fleet operators receive reliable support, quick issue resolution, and seamless integration. Your success on the road is our top priority.",
     icon: <FaTruck className="text-6xl text-[#1f3a5f] mx-auto mb-4" />,
   },
   {
-    title: "Route Optimization",
+    title: "Optimization",
     description:
-      "We analyze traffic patterns and fuel efficiency to design the best possible routes, reducing costs and delays.",
+      "We help trucking businesses optimize their operations with efficient and user-friendly ELD solutions. Our advanced technology ensures accurate tracking, effortless log management, and real-time insights that improve productivity and reduce downtime. With our expertise, you can streamline compliance and maximize efficiency.",
     icon: <FaRoute className="text-6xl text-[#1f3a5f] mx-auto mb-4" />,
   },
   {
-    title: "Load Negotiation",
+    title: "Negotiation",
     description:
-      "We negotiate the best freight rates for our clients, ensuring profitable and secure load bookings.",
+      "We understand the challenges of the trucking industry, which is why we work to provide cost-effective and reliable ELD solutions tailored to your needs. Our team ensures you get the best service, value, and support, helping you stay compliant without unnecessary expenses or complications.",
     icon: <FaHandshake className="text-6xl text-[#1f3a5f] mx-auto mb-4" />,
   },
 ];
@@ -41,8 +41,8 @@ const Services = () => {
             Our Services
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-12 max-w-3xl mx-auto">
-            We offer comprehensive dispatching services that help trucking
-            businesses maximize efficiency and profitability.
+            At Adam ELD, we provide reliable and stress-free ELD solutions
+            tailored to meet the needs of trucking businesses.
           </p>
         </div>
       </section>
@@ -72,8 +72,7 @@ const Services = () => {
             Get in Touch
           </h3>
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            Whether you need reliable dispatching, optimized routes, or better
-            load deals, our team is here to help. Contact us today!
+            Our team is here to help. Contact us today!
           </p>
           <div className="flex flex-col md:flex-row justify-center items-center gap-6">
             <div className="flex items-center gap-3 bg-white p-4 rounded-xl shadow-md border border-[#3b5a85]">

@@ -9,11 +9,13 @@ const Footer = () => {
         {/* Company Info Section */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
           <div className="text-4xl font-bold font-poppins text-[#1f3a5f]">
-            ADAM
+            ADAM ELD
           </div>
           <p className="text-lg mt-4 max-w-md mx-auto md:mx-0 text-gray-300">
-            We provide reliable and efficient truck dispatching services that
-            streamline logistics and enhance operational efficiency.
+            At Adam ELD, we offer a full range of services to ensure seamless
+            ELD compliance and hassle-free operations for truck drivers and
+            fleet managers.We make ELD compliance simple, efficient, and
+            stress-free!
           </p>
           <div className="mt-6 text-lg flex flex-col items-center md:items-start text-gray-300">
             <div className="flex items-center gap-2 mb-3">
@@ -55,7 +57,7 @@ const Footer = () => {
                 href="/carriers"
                 className="hover:text-[#1f3a5f] transition duration-300"
               >
-                Carriers
+                Join Us
               </Link>
             </li>
             <li>
@@ -116,7 +118,7 @@ const Footer = () => {
 
       {/* Footer Bottom Section */}
       <div className="mt-12 text-center text-sm text-gray-400">
-        <p>&copy; {new Date().getFullYear()} ADAM. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} ADAM ELD. All rights reserved.</p>
         <p>
           <Link
             href="/privacypolicy"
