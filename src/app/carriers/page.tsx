@@ -15,8 +15,11 @@ const Carriers = () => {
             Partner With Us
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-12 max-w-3xl mx-auto">
-            Join our network of trusted carriers and gain access to consistent
-            freight, reliable payments, and dedicated support.
+            Join our network of trucking professionals and experience
+            hassle-free ELD compliance with expert support, seamless
+            integration, and 24/7 assistance. Partner with us to ensure reliable
+            logging, regulatory compliance, and a stress-free driving
+            experience.
           </p>
         </div>
       </section>
@@ -27,12 +30,16 @@ const Carriers = () => {
             <div className="p-8 bg-white border-2 border-gray-300 rounded-xl shadow-xl text-center">
               <FaTruck className="text-6xl text-[#1f3a5f] mx-auto mb-4" />
               <h3 className="text-3xl font-semibold text-[#1f3a5f] mb-4">
-                Freight Opportunities
+                Association Opportunities
               </h3>
               <p className="text-lg text-gray-700 leading-relaxed">
-                We provide a steady stream of high-quality loads with
-                competitive rates. Partner with us to keep your trucks moving
-                and your business growing.
+                We provide reliable, industry-leading ELD solutions designed to
+                keep your fleet compliant and operating smoothly. By partnering
+                with us, you gain access to seamless ELD integration, real-time
+                support, and expert guidance to navigate FMCSA regulations with
+                ease. Our goal is to simplify compliance, minimize downtime, and
+                enhance overall efficiency, allowing you to focus on growing
+                your business without technical setbacks.
               </p>
               <Link href="/contact">
                 <button className="mt-6 px-6 py-3 bg-[#1f3a5f] text-white text-lg font-semibold rounded-lg shadow-md hover:bg-[#3b5a85] transition duration-300">
@@ -47,8 +54,11 @@ const Carriers = () => {
                 Reliable Partnerships
               </h3>
               <p className="text-lg text-white leading-relaxed">
-                We build long-term relationships with our carriers, offering
-                consistent loads, fair rates, and dependable communication.
+                We build long-term relationships with drivers and fleet
+                operators by providing dependable ELD solutions, seamless
+                compliance support and technical assistance. Our commitment to
+                reliability ensures that you stay compliant, connected, and
+                focused on the road ahead without unnecessary disruptions.
               </p>
             </div>
           </div>
@@ -61,7 +71,7 @@ const Carriers = () => {
             Get Started Today
           </h3>
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            Sign up to become a carrier partner by contacting us at
+            Sign up to become our partner by contacting us at
             <a
               href="mailto:info@adam.com"
               className="text-[#1f3a5f] font-semibold"

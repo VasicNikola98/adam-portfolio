@@ -33,7 +33,7 @@ const Header = () => {
             {[
               { name: "Home", path: "/" },
               { name: "Services", path: "/services" },
-              { name: "Carriers", path: "/carriers" },
+              { name: "Join Us", path: "/carriers" },
               { name: "About Us", path: "/aboutus" },
             ].map((item) => (
               <li key={item.name} className="relative group">
