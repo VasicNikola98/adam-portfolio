@@ -3,6 +3,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { FaTruck, FaHandshake, FaShippingFast } from "react-icons/fa";
+import Link from "next/link";
 
 const Carriers = () => {
   return (
@@ -33,9 +34,11 @@ const Carriers = () => {
                 competitive rates. Partner with us to keep your trucks moving
                 and your business growing.
               </p>
-              <button className="mt-6 px-6 py-3 bg-[#1f3a5f] text-white text-lg font-semibold rounded-lg shadow-md hover:bg-[#3b5a85] transition duration-300">
-                Join Our Network
-              </button>
+              <Link href="/contact">
+                <button className="mt-6 px-6 py-3 bg-[#1f3a5f] text-white text-lg font-semibold rounded-lg shadow-md hover:bg-[#3b5a85] transition duration-300">
+                  Join Our Network
+                </button>
+              </Link>
             </div>
 
             <div className="p-8 bg-[#1f3a5f] border-2 border-[#1f3a5f]-300 rounded-xl shadow-xl text-center">

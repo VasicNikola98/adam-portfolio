@@ -119,7 +119,7 @@ const Footer = () => {
         <p>&copy; {new Date().getFullYear()} ADAM. All rights reserved.</p>
         <p>
           <Link
-            href="/privacy-policy"
+            href="/privacypolicy"
             className="hover:text-[#1f3a5f] transition duration-300"
           >
             Privacy Policy
