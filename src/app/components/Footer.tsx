@@ -26,7 +26,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center gap-2 mb-3">
               <Mail size={20} className="text-[#1f3a5f]" />
-              <a href="mailto:contact@adam.com">contact@adam.com</a>
+              <a href="mailto:contact@adameld.com">contact@adameld.com</a>
             </div>
             {/*
             <div className="flex flex-col mt-4">
@@ -112,7 +112,7 @@ const Footer = () => {
             className="hover:text-[#1f3a5f] transition duration-300"
           />
         </Link>
-        <Link href="mailto:contact@adam.com">
+        <Link href="mailto:contact@adameld.com">
           <Mail
             size={30}
             className="hover:text-[#1f3a5f] transition duration-300"

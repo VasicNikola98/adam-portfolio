@@ -73,11 +73,11 @@ const Carriers = () => {
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
             Sign up to become our partner by contacting us at
             <a
-              href="mailto:info@adam.com"
+              href="mailto:info@adameld.com"
               className="text-[#1f3a5f] font-semibold"
             >
               {" "}
-              info@adam.com
+              info@adameld.com
             </a>
             . We look forward to working with you!
           </p>
