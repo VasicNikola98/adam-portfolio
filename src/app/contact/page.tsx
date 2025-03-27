@@ -26,12 +26,14 @@ const Contact = () => {
             <h3 className="text-2xl font-semibold text-[#1f3a5f] mb-4">
               Company Information
             </h3>
+            {/*
             <p className="text-gray-700">
               <strong>PIB:</strong> 123456789
             </p>
             <p className="text-gray-700">
               <strong>Registration Number:</strong> 987654321
             </p>
+            */}
             <p className="text-gray-700">
               <strong>Business Hours:</strong> Monday–Sunday: 24h
             </p>

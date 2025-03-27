@@ -28,10 +28,12 @@ const Footer = () => {
               <Mail size={20} className="text-[#1f3a5f]" />
               <a href="mailto:contact@adam.com">contact@adam.com</a>
             </div>
+            {/*
             <div className="flex flex-col mt-4">
               <p>PIB: 123456789</p>
               <p>Register Number: 987654321</p>
             </div>
+          */}
           </div>
         </div>
 

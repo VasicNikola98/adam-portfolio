@@ -3,7 +3,6 @@
 import Header from "./components/Header";
 import Hero from "./home/Hero";
 import WhyChooseUs from "./home/WhyChooseUs";
-import MissionVision from "./home/MissionVision";
 import Testimonials from "./home/Testimonials";
 import Footer from "./components/Footer";
 
@@ -16,9 +15,6 @@ export default function Home() {
       </div>
       <div className="min-h-screen">
         <WhyChooseUs />
-      </div>
-      <div>
-        <MissionVision />
       </div>
       <div>
         <Testimonials />
