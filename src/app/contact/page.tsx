@@ -34,9 +34,7 @@ const Contact = () => {
               <strong>Registration Number:</strong> 987654321
             </p>
             */}
-            <p className="text-gray-700">
-              <strong>Business Hours:</strong> Monday–Sunday: 24h
-            </p>
+            <p className="text-gray-700">Monday–Sunday: 24h</p>
           </div>
 
           <div className="bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transform transition-all duration-300 ease-in-out hover:scale-105 flex flex-col items-center space-y-6 w-full md:w-[100%] border-t-2 border-[#1f3a5f]">
@@ -60,10 +58,10 @@ const Contact = () => {
               Email Us
             </h3>
             <a
-              href="mailto:info@adam.com"
+              href="mailto:info@adameld.com"
               className="text-lg text-gray-700 font-bold hover:underline"
             >
-              info@adam.com
+              info@adameld.com
             </a>
 
             <p className="text-gray-700 mt-2">Monday–Sunday: 24h</p>

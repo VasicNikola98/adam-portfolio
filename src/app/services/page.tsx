@@ -83,8 +83,11 @@ const Services = () => {
             </div>
             <div className="flex items-center gap-3 bg-white p-4 rounded-xl shadow-md border border-[#3b5a85]">
               <FaEnvelope className="text-2xl text-[#1f3a5f]" />
-              <a href="mailto:info@adam.com" className="text-lg text-gray-800">
-                info@adam.com
+              <a
+                href="mailto:info@adameld.com"
+                className="text-lg text-gray-800"
+              >
+                info@adameld.com
               </a>
             </div>
           </div>
