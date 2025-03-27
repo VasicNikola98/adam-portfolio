@@ -21,8 +21,8 @@ export default function WhyChooseUs() {
           Why Choose Us?
         </h2>
         <p className="text-xl text-gray-300 max-w-4xl mx-auto mb-14 leading-relaxed">
-          We provide reliable, efficient, and secure truck dispatching services
-          that ensure smooth operations for your business.
+          We provide reliable, efficient, and secure services that ensure smooth
+          operations for your business.
         </p>
 
         {/* Key Features / Benefits */}
@@ -33,7 +33,7 @@ export default function WhyChooseUs() {
                 <Users className="w-16 h-16 stroke-[#1f3a5f] stroke-[1.5]" />
               ),
               title: "Experienced Team",
-              text: "Our team of logistics experts ensures that your trucks are in capable hands, optimizing routes and efficiency.",
+              text: "With years of industry expertise, our dedicated professionals provide reliable solutions and top-tier support. We are committed to ensuring seamless operations, compliance, and efficiency for your business.",
             },
             {
               icon: (
@@ -46,8 +46,8 @@ export default function WhyChooseUs() {
               icon: (
                 <Truck className="w-16 h-16 stroke-[#1f3a5f] stroke-[1.5]" />
               ),
-              title: "Reliable Delivery",
-              text: "We prioritize timely deliveries, ensuring your goods reach their destinations safely and on schedule.",
+              title: "Fast & Reliable",
+              text: "Speed and reliability are at the core of everything we do. Because every moment counts.",
             },
           ].map((feature, index) => (
             <div

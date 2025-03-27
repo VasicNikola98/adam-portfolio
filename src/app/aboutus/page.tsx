@@ -49,9 +49,9 @@ const AboutUs = () => {
                 className="max-w-full h-auto object-cover rounded-2xl"
                 style={{
                   WebkitMaskImage:
-                    "linear-gradient(to right, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 100%)",
+                    "linear-gradient(to left, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 100%)",
                   maskImage:
-                    "linear-gradient(to right, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 100%)",
+                    "linear-gradient(to left, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 100%)",
                 }}
               />
             </div>
@@ -85,9 +85,9 @@ const AboutUs = () => {
                 className="max-w-full h-auto object-cover rounded-2xl"
                 style={{
                   WebkitMaskImage:
-                    "linear-gradient(to left, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 100%)",
+                    "linear-gradient(to right, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 100%)",
                   maskImage:
-                    "linear-gradient(to left, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 100%)",
+                    "linear-gradient(to right, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 100%)",
                 }}
               />
             </div>

@@ -15,7 +15,6 @@ const Header = () => {
         <Link href="/">
           <div className="text-2xl font-bold font-poppins">
             <span className="text-[#1f3a5f]">ADAM</span>{" "}
-            <span className="text-[#6b7280] font-extrabold">ELD</span>
           </div>
         </Link>
 

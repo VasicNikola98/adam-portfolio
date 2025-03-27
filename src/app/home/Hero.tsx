@@ -18,15 +18,16 @@ export default function Hero() {
         <div className="relative z-10 w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 items-center">
           <div className="space-y-6 text-gray-900">
             <h1 className="text-5xl font-bold font-poppins leading-tight text-[#1f3a5f] drop-shadow-lg">
-              Reliable <span className="text-gray-600">Truck Dispatching</span>
+              Reliable <span className="text-gray-600">ELD Solutions</span>
             </h1>
 
             <p className="text-lg text-gray-700 max-w-lg font-medium tracking-wide leading-relaxed drop-shadow-sm">
-              We ensure efficient and secure transportation management across
-              the USA. Our experienced team is here to keep your operations
-              running smoothly.
+              We ensure seamless and compliant fleet operations across the USA
+              with our dependable ELD solutions. Our experienced team provides
+              24/7 support, technical assistance, and compliance guidance to
+              keep your business running smoothly and stress-free.
               <span className="block text-gray-600 font-medium mt-2 border-t border-gray-400 pt-2 italic text-gray-500 drop-shadow-md">
-                With us your truck is in safe hands.
+                Because every moment counts.
               </span>
             </p>
 
