@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { FaChevronDown } from "react-icons/fa";
 import config from "@/app/utils/config";
+import Head from "next/head";
 
 const faqs = [
   {
@@ -43,6 +44,24 @@ const Faq = () => {
 
   return (
     <>
+      <Head>
+        <title>FAQs | {config.companyName}</title>
+        <meta
+          name="description"
+          content="Find answers to the most common questions about our ELD services, compliance support, and technical assistance."
+        />
+        <meta
+          name="keywords"
+          content="ELD, trucking, FAQs, compliance, support"
+        />
+        <meta name="author" content={config.companyName} />
+        <meta property="og:title" content={`FAQs | ${config.companyName}`} />
+        <meta
+          property="og:description"
+          content="Learn more about our ELD installation, technical support, and compliance assistance."
+        />
+        <meta name="robots" content="index, follow" />
+      </Head>
       <Header />
       <section className="py-20 bg-gray-50 text-gray-900 shadow-md text-center">
         <div className="container mx-auto px-6 md:px-12">

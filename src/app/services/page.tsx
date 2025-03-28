@@ -3,6 +3,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import config from "@/app/utils/config";
+import Head from "next/head";
 
 import {
   FaTruck,
@@ -35,6 +36,27 @@ const services = [
 const Services = () => {
   return (
     <>
+      <Head>
+        <title>Services | {config.companyName}</title>
+        <meta
+          name="description"
+          content="Discover our top-quality ELD solutions for trucking businesses. From compliance support to optimization, we ensure seamless operations."
+        />
+        <meta
+          name="keywords"
+          content="ELD services, trucking compliance, fleet management, optimization, logistics support"
+        />
+        <meta name="author" content={config.companyName} />
+        <meta
+          property="og:title"
+          content={`Services | ${config.companyName}`}
+        />
+        <meta
+          property="og:description"
+          content="Learn more about our ELD installation, compliance assistance, and fleet management services."
+        />
+        <meta name="robots" content="index, follow" />
+      </Head>
       <Header />
       <section className="py-20 bg-gray-50 text-gray-900 shadow-md text-center">
         <div className="container mx-auto px-6 md:px-12">

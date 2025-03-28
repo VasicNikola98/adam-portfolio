@@ -27,7 +27,10 @@ export default function Hero() {
             }),
           }}
         />
-        <meta property="og:title" content="Reliable ELD Solutions - Adam ELD" />
+        <meta
+          property="og:title"
+          content={`Reliable ELD Solutions - ${config.companyName}`}
+        />
         <meta
           property="og:description"
           content="We ensure seamless and compliant fleet operations across the USA with our dependable ELD solutions."

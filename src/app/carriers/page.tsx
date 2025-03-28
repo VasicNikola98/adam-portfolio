@@ -5,10 +5,34 @@ import Footer from "../components/Footer";
 import { FaTruck, FaHandshake, FaShippingFast } from "react-icons/fa";
 import Link from "next/link";
 import config from "@/app/utils/config";
+import Head from "next/head";
 
 const Carriers = () => {
   return (
     <>
+      <Head>
+        <title>
+          Partner With {config.companyName} - Reliable ELD Solutions
+        </title>
+        <meta
+          name="description"
+          content={`Join ${config.companyName} and experience seamless ELD compliance, expert support, and reliable fleet management solutions.`}
+        />
+        <meta
+          name="keywords"
+          content="ELD compliance, fleet management, trucking partnership, FMCSA regulations, reliable ELD solutions"
+        />
+        <meta name="author" content={config.companyName} />
+
+        <meta
+          property="og:title"
+          content={`Partner With ${config.companyName} - Reliable ELD Solutions`}
+        />
+        <meta
+          property="og:description"
+          content={`Join ${config.companyName} and experience seamless ELD compliance, expert support, and reliable fleet management solutions.`}
+        />
+      </Head>
       <Header />
       <section className="py-20 bg-gray-50 text-gray-900 text-center relative overflow-hidden">
         <div className="container mx-auto px-6 md:px-12 relative z-10">

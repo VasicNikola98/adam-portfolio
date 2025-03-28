@@ -3,10 +3,32 @@ import Footer from "../components/Footer";
 import { FaPhoneAlt, FaEnvelope, FaBuilding } from "react-icons/fa";
 import Link from "next/link";
 import config from "@/app/utils/config";
-
+import Head from "next/head";
 const Contact = () => {
   return (
     <>
+      <Head>
+        <title>Contact Us | {config.companyName}</title>
+        <meta
+          name="description"
+          content="Get in touch with our ELD team for expert support and seamless compliance solutions. Available 24/7 to assist you!"
+        />
+        <meta
+          name="keywords"
+          content="ELD, trucking, contact, support, compliance"
+        />
+        <meta name="author" content={config.companyName} />
+        <meta
+          property="og:title"
+          content={`Contact Us | ${config.companyName}`}
+        />
+        <meta
+          property="og:description"
+          content="Connect with our team for professional assistance with ELD compliance and trucking solutions."
+        />
+        <meta property="og:type" content="website" />
+        <meta name="robots" content="index, follow" />
+      </Head>
       <Header />
       <section className="py-20 bg-gray-50 text-gray-900 text-center relative overflow-hidden">
         <div className="container mx-auto px-6 md:px-12 relative z-10">

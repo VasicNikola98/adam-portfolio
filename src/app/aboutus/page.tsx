@@ -3,10 +3,53 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import config from "@/app/utils/config";
-
+import Head from "next/head";
 const AboutUs = () => {
   return (
     <>
+      <Head>
+        <title>About Us - {config.companyName}</title>
+        <meta
+          name="description"
+          content={`Learn more about ${config.companyName}, a trusted provider of ELD solutions and fleet management support. Our expert team ensures compliance and smooth operations for trucking companies across the USA.`}
+        />
+        <meta
+          name="keywords"
+          content={`About ${config.companyName}, ELD solutions, fleet management, FMCSA compliance, trucking support, electronic logging devices`}
+        />
+        <meta
+          property="og:title"
+          content={`About Us - ${config.companyName}`}
+        />
+        <meta
+          property="og:description"
+          content="We specialize in ELD compliance and fleet management, helping trucking companies stay on track with regulations and seamless operations."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://adameld.com/about" />
+        <meta
+          property="og:image"
+          content="https://adameld.com/images/about-us.jpg"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: `${config.companyName}`,
+              url: "https://adameld.com/about",
+              description:
+                "Adam ELD provides advanced ELD solutions and fleet management support for trucking companies.",
+              contactPoint: {
+                "@type": "ContactPoint",
+                telephone: `${config.phone}`,
+                contactType: "Customer Support",
+              },
+            }),
+          }}
+        />
+      </Head>
       <Header />
       <section className="py-20 bg-gray-50 text-gray-900 text-center">
         <div className="container mx-auto px-6 md:px-12">

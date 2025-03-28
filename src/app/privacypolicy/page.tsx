@@ -1,10 +1,32 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import config from "@/app/utils/config";
+import Head from "next/head";
 
 const PrivacyPolicy = () => {
   return (
     <>
+      <Head>
+        <title>Privacy Policy | {config.companyName}</title>
+        <meta
+          name="description"
+          content="Read our privacy policy to understand how we collect, use, and protect your personal information."
+        />
+        <meta
+          name="keywords"
+          content="privacy policy, data protection, personal information, security, {config.companyName}"
+        />
+        <meta name="author" content={config.companyName} />
+        <meta
+          property="og:title"
+          content={`Privacy Policy | ${config.companyName}`}
+        />
+        <meta
+          property="og:description"
+          content="Learn more about our commitment to data privacy and security."
+        />
+        <meta name="robots" content="index, follow" />
+      </Head>
       <Header />
       <section className="py-20 bg-gray-50 text-gray-900 text-center relative overflow-hidden">
         <div className="container mx-auto px-6 md:px-12 relative z-10">
