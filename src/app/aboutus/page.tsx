@@ -46,7 +46,7 @@ const AboutUs = () => {
             <div className="relative w-full h-auto">
               <img
                 src="/images/img1.jpg"
-                alt="Truck on the road"
+                alt="Truck driving on a highway, symbolizing fleet operations and ELD compliance"
                 className="max-w-full h-auto object-cover rounded-2xl"
                 style={{
                   WebkitMaskImage:
@@ -82,7 +82,7 @@ const AboutUs = () => {
             <div className="relative w-full h-auto">
               <img
                 src="/images/img3.jpg"
-                alt="Truck vision"
+                alt="Close-up of truck with advanced technology for fleet management and ELD solutions"
                 className="max-w-full h-auto object-cover rounded-2xl"
                 style={{
                   WebkitMaskImage:

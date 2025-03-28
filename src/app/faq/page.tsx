@@ -4,6 +4,7 @@ import { useState } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { FaChevronDown } from "react-icons/fa";
+import config from "@/app/utils/config";
 
 const faqs = [
   {
@@ -49,8 +50,9 @@ const Faq = () => {
             Frequently Asked Questions
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-12 max-w-3xl mx-auto">
-            Find answers to the most common questions about Adam ELD services.
-            If you need further assistance, feel free to reach out to us.
+            Find answers to the most common questions about {config.companyName}{" "}
+            services. If you need further assistance, feel free to reach out to
+            us.
           </p>
         </div>
       </section>

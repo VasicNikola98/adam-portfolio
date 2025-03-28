@@ -29,10 +29,10 @@ const Contact = () => {
             </h3>
             {/*
             <p className="text-gray-700">
-              <strong>PIB:</strong> 123456789
+              <strong>PIB:</strong> {config.pib}
             </p>
             <p className="text-gray-700">
-              <strong>Registration Number:</strong> 987654321
+              <strong>Registration Number:</strong> {config.registrationNumber}
             </p>
             */}
             <p className="text-gray-700">Monday–Sunday: 24h</p>
@@ -76,8 +76,9 @@ const Contact = () => {
             Frequently Asked Questions
           </h3>
           <p className="text-lg text-gray-700 mb-8">
-            Find answers to the most common questions about Adam ELD services.
-            If you need further assistance, feel free to reach out to us.
+            Find answers to the most common questions about {config.companyName}{" "}
+            services. If you need further assistance, feel free to reach out to
+            us.
           </p>
           <a
             href="/faq"

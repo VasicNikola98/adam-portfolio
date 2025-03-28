@@ -23,7 +23,7 @@ const PrivacyPolicy = () => {
             Last Updated: February 26, 2025
           </p>
           <p className="text-gray-700 text-lg leading-relaxed mb-6">
-            {config.companyName}values your privacy. We provide on-demand
+            {config.companyName} values your privacy. We provide on-demand
             services and real-time workforce tracking solutions through our
             mobile applications and website. This policy explains how we
             collect, use, and protect your personal information.

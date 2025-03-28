@@ -1,8 +1,8 @@
 const config = {
-  companyName: "ADAM ELD",
+  companyName: "Adam ELD",
   contactEmail: "contact@adameld.com",
   infoEmail: "info@adameld.com",
-  phone: "+123 456 7890",
+  phone: "+1 708-966-1686",
   pib: "123456789",
   registrationNumber: "987654321",
   socialLinks: {

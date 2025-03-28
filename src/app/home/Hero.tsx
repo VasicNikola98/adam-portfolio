@@ -1,9 +1,42 @@
 import Link from "next/link";
 import Head from "next/head";
 import config from "@/app/utils/config";
+
 export default function Hero() {
   return (
     <>
+      <Head>
+        <title>Reliable ELD Solutions - {config.companyName}</title>
+        <meta
+          name="description"
+          content="We ensure seamless and compliant fleet operations across the USA with our dependable ELD solutions. Our experienced team provides 24/7 support, technical assistance, and compliance guidance to keep your business running smoothly and stress-free."
+        />
+        <meta
+          name="keywords"
+          content="ELD solutions, fleet management, logistics, compliance, ELD support, fleet operations"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: `${config.companyName}`,
+              url: "https://adameld.com",
+              sameAs: ["https://www.facebook.com/adameld"],
+            }),
+          }}
+        />
+        <meta property="og:title" content="Reliable ELD Solutions - Adam ELD" />
+        <meta
+          property="og:description"
+          content="We ensure seamless and compliant fleet operations across the USA with our dependable ELD solutions."
+        />
+        <meta property="og:image" content="URL_TO_YOUR_IMAGE" />
+        <meta property="og:url" content="https://adameld.com" />
+        <meta property="og:type" content="website" />
+      </Head>
+
       <section className="relative w-full h-full flex items-center bg-white">
         <div className="absolute inset-0 flex justify-center items-center">
           <div className="absolute top-16 right-12 w-[70%] h-[2px] bg-[#1f3a5f] opacity-50 transform rotate-45 md:block sm:hidden"></div>
