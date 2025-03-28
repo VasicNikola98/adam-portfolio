@@ -1,9 +1,13 @@
-"use client";
-
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import config from "@/app/utils/config";
 import Head from "next/head";
+
+export const metadata = {
+  title: `About Us | ${config.companyName}`,
+  description: `Learn more about ${config.companyName}, a trusted provider of ELD solutions and fleet management support.`,
+};
+
 const AboutUs = () => {
   return (
     <>

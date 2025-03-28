@@ -1,11 +1,14 @@
-"use client";
-
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { FaTruck, FaHandshake, FaShippingFast } from "react-icons/fa";
 import Link from "next/link";
 import config from "@/app/utils/config";
 import Head from "next/head";
+
+export const metadata = {
+  title: `Join Us | ${config.companyName}`,
+  description: `Join ${config.companyName} and experience seamless ELD compliance, expert support, and reliable fleet management solutions.`,
+};
 
 const Carriers = () => {
   return (

@@ -1,9 +1,12 @@
-"use client";
-
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import config from "@/app/utils/config";
 import Head from "next/head";
+
+export const metadata = {
+  title: `Services | ${config.companyName}`,
+  description: `At ${config.companyName}, we are committed to providing top-quality ELD solutions that keep your business running smoothly and in full compliance with industry regulations. Our team works tirelessly to ensure drivers and fleet operators receive reliable support, quick issue resolution, and seamless integration. Your success on the road is our top priority.`,
+};
 
 import {
   FaTruck,

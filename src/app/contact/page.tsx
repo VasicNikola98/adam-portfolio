@@ -4,6 +4,12 @@ import { FaPhoneAlt, FaEnvelope, FaBuilding } from "react-icons/fa";
 import Link from "next/link";
 import config from "@/app/utils/config";
 import Head from "next/head";
+
+export const metadata = {
+  title: `Contact Us | ${config.companyName}`,
+  description: `Get in touch with our ELD team for expert support and seamless compliance solutions. Available 24/7 to assist you!`,
+};
+
 const Contact = () => {
   return (
     <>

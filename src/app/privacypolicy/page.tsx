@@ -3,6 +3,11 @@ import Footer from "../components/Footer";
 import config from "@/app/utils/config";
 import Head from "next/head";
 
+export const metadata = {
+  title: `Privacy Policy | ${config.companyName}`,
+  description: `Read our privacy policy to understand how we collect, use, and protect your personal information.`,
+};
+
 const PrivacyPolicy = () => {
   return (
     <>
