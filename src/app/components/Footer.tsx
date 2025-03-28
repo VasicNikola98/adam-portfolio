@@ -1,6 +1,7 @@
 import { Phone, Mail, Instagram } from "lucide-react";
 import { FaLinkedin, FaFacebook } from "react-icons/fa";
 import Link from "next/link";
+import config from "@/app/utils/config";
 
 const Footer = () => {
   return (
@@ -14,19 +15,21 @@ const Footer = () => {
           </div>
 
           <p className="text-lg mt-4 max-w-md mx-auto md:mx-0 text-gray-300">
-            At Adam ELD, we offer a full range of services to ensure seamless
-            ELD compliance and hassle-free operations for truck drivers and
-            fleet managers.We make ELD compliance simple, efficient, and
+            At {config.companyName}, we offer a full range of services to ensure
+            seamless ELD compliance and hassle-free operations for truck drivers
+            and fleet managers.We make ELD compliance simple, efficient, and
             stress-free!
           </p>
           <div className="mt-6 text-lg flex flex-col items-center md:items-start text-gray-300">
             <div className="flex items-center gap-2 mb-3">
               <Phone size={20} className="text-[#1f3a5f]" />
-              <a href="tel:+1234567890">+123 456 7890</a>
+              <a href={`tel:${config.phone}`}>{config.phone}</a>
             </div>
             <div className="flex items-center gap-2 mb-3">
               <Mail size={20} className="text-[#1f3a5f]" />
-              <a href="mailto:contact@adameld.com">contact@adameld.com</a>
+              <a href={`mailto:${config.contactEmail}`}>
+                {config.contactEmail}
+              </a>
             </div>
             {/*
             <div className="flex flex-col mt-4">
@@ -94,25 +97,25 @@ const Footer = () => {
 
       {/* Social Media Section */}
       <div className="mt-12 flex justify-center gap-8">
-        <Link href="https://www.linkedin.com" target="_blank">
+        <Link href={config.socialLinks.linkedin} target="_blank">
           <FaLinkedin
             size={30}
             className="hover:text-[#1f3a5f] transition duration-300"
           />
         </Link>
-        <Link href="https://www.instagram.com" target="_blank">
+        <Link href={config.socialLinks.instagram} target="_blank">
           <Instagram
             size={30}
             className="hover:text-[#1f3a5f] transition duration-300"
           />
         </Link>
-        <Link href="https://www.facebook.com" target="_blank">
+        <Link href={config.socialLinks.facebook} target="_blank">
           <FaFacebook
             size={30}
             className="hover:text-[#1f3a5f] transition duration-300"
           />
         </Link>
-        <Link href="mailto:contact@adameld.com">
+        <Link href={`mailto:${config.contactEmail}`}>
           <Mail
             size={30}
             className="hover:text-[#1f3a5f] transition duration-300"
@@ -122,7 +125,10 @@ const Footer = () => {
 
       {/* Footer Bottom Section */}
       <div className="mt-12 text-center text-sm text-gray-400">
-        <p>&copy; {new Date().getFullYear()} ADAM ELD. All rights reserved.</p>
+        <p>
+          &copy; {new Date().getFullYear()} {config.companyName}. All rights
+          reserved.
+        </p>
         <p>
           <Link
             href="/privacypolicy"

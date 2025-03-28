@@ -2,6 +2,7 @@
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import config from "@/app/utils/config";
 
 const AboutUs = () => {
   return (
@@ -13,10 +14,10 @@ const AboutUs = () => {
             About Us
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-12 max-w-3xl mx-auto">
-            At Adam ELD, we specialize in providing reliable and efficient
-            support for Electronic Logging Devices (ELDs) and fleet management
-            applications. Our mission is to help truck drivers and fleet
-            operators stay compliant with FMCSA regulations while ensuring
+            At {config.companyName}, we specialize in providing reliable and
+            efficient support for Electronic Logging Devices (ELDs) and fleet
+            management applications. Our mission is to help truck drivers and
+            fleet operators stay compliant with FMCSA regulations while ensuring
             smooth and hassle-free operations.
           </p>
         </div>

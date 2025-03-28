@@ -2,6 +2,8 @@
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import config from "@/app/utils/config";
+
 import {
   FaTruck,
   FaRoute,
@@ -13,8 +15,7 @@ import {
 const services = [
   {
     title: "Dedication",
-    description:
-      "At Adam ELD, we are committed to providing top-quality ELD solutions that keep your business running smoothly and in full compliance with industry regulations. Our team works tirelessly to ensure drivers and fleet operators receive reliable support, quick issue resolution, and seamless integration. Your success on the road is our top priority.",
+    description: `At ${config.companyName}, we are committed to providing top-quality ELD solutions that keep your business running smoothly and in full compliance with industry regulations. Our team works tirelessly to ensure drivers and fleet operators receive reliable support, quick issue resolution, and seamless integration. Your success on the road is our top priority.`,
     icon: <FaTruck className="text-6xl text-[#1f3a5f] mx-auto mb-4" />,
   },
   {
@@ -41,8 +42,8 @@ const Services = () => {
             Our Services
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-12 max-w-3xl mx-auto">
-            At Adam ELD, we provide reliable and stress-free ELD solutions
-            tailored to meet the needs of trucking businesses.
+            At {config.companyName}, we provide reliable and stress-free ELD
+            solutions tailored to meet the needs of trucking businesses.
           </p>
         </div>
       </section>
@@ -77,17 +78,17 @@ const Services = () => {
           <div className="flex flex-col md:flex-row justify-center items-center gap-6">
             <div className="flex items-center gap-3 bg-white p-4 rounded-xl shadow-md border border-[#3b5a85]">
               <FaPhoneAlt className="text-2xl text-[#1f3a5f]" />
-              <a href="tel:+1234567890" className="text-lg text-gray-800">
-                (123) 456-7890
+              <a href={`tel:${config.phone}`} className="text-lg text-gray-800">
+                {config.phone}
               </a>
             </div>
             <div className="flex items-center gap-3 bg-white p-4 rounded-xl shadow-md border border-[#3b5a85]">
               <FaEnvelope className="text-2xl text-[#1f3a5f]" />
               <a
-                href="mailto:info@adameld.com"
+                href={`mailto:${config.infoEmail}`}
                 className="text-lg text-gray-800"
               >
-                info@adameld.com
+                {config.infoEmail}
               </a>
             </div>
           </div>

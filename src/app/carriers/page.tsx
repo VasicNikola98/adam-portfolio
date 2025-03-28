@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { FaTruck, FaHandshake, FaShippingFast } from "react-icons/fa";
 import Link from "next/link";
+import config from "@/app/utils/config";
 
 const Carriers = () => {
   return (
@@ -73,11 +74,11 @@ const Carriers = () => {
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
             Sign up to become our partner by contacting us at
             <a
-              href="mailto:info@adameld.com"
+              href={`mailto:${config.infoEmail}`}
               className="text-[#1f3a5f] font-semibold"
             >
               {" "}
-              info@adameld.com
+              {config.infoEmail}
             </a>
             . We look forward to working with you!
           </p>

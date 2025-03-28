@@ -1,5 +1,6 @@
 import Link from "next/link";
-
+import Head from "next/head";
+import config from "@/app/utils/config";
 export default function Hero() {
   return (
     <>

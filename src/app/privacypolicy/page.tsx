@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import config from "@/app/utils/config";
 
 const PrivacyPolicy = () => {
   return (
@@ -22,10 +23,10 @@ const PrivacyPolicy = () => {
             Last Updated: February 26, 2025
           </p>
           <p className="text-gray-700 text-lg leading-relaxed mb-6">
-            Adam ELD values your privacy. We provide on-demand services and
-            real-time workforce tracking solutions through our mobile
-            applications and website. This policy explains how we collect, use,
-            and protect your personal information.
+            {config.companyName}values your privacy. We provide on-demand
+            services and real-time workforce tracking solutions through our
+            mobile applications and website. This policy explains how we
+            collect, use, and protect your personal information.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed mb-6">
             By using our website or services, you consent to the collection and

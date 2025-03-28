@@ -2,6 +2,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { FaPhoneAlt, FaEnvelope, FaBuilding } from "react-icons/fa";
 import Link from "next/link";
+import config from "@/app/utils/config";
 
 const Contact = () => {
   return (
@@ -43,10 +44,10 @@ const Contact = () => {
               Call Us
             </h3>
             <a
-              href="tel:+1234567890"
+              href={`tel:${config.phone}`}
               className="text-lg text-gray-700 font-bold hover:underline"
             >
-              +123 456 7890
+              {config.phone}
             </a>
 
             <p className="text-gray-700 mt-2">Monday–Sunday: 24h</p>
@@ -58,10 +59,10 @@ const Contact = () => {
               Email Us
             </h3>
             <a
-              href="mailto:info@adameld.com"
+              href={`mailto:${config.infoEmail}`}
               className="text-lg text-gray-700 font-bold hover:underline"
             >
-              info@adameld.com
+              {config.infoEmail}
             </a>
 
             <p className="text-gray-700 mt-2">Monday–Sunday: 24h</p>
