@@ -7,8 +7,7 @@ const config = {
   registrationNumber: "987654321",
   socialLinks: {
     linkedin: "https://www.linkedin.com",
-    instagram:
-      "https://www.instagram.com/adameldtruck?igsh=MWMxNHlwYTh5bTZ3ZA==",
+    instagram: "https://www.instagram.com/adameldtruck",
     facebook: "https://www.facebook.com",
   },
 };
